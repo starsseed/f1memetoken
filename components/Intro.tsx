@@ -45,21 +45,15 @@ export default function Intro() {
     >
       <div className="mx-auto flex min-h-screen max-w-5xl flex-col items-center justify-center px-10 py-24 text-4xl font-semibold tracking-tight md:py-28 md:text-6xl lg:px-20 lg:py-3 lg:text-7xl">
         <div className="leading-[1.15]">
-          <div className="introText" style={{ opacity: opacityForBlock(progress, 0) }}>
-            I love coding.
-          </div>
+          <div className="introText" style={{ opacity: opacityForBlock(progress, 0) }}>Would you like to meet F1 fans in the crypto community?</div>
           <span
             className="introText inline-block after:content-['_']"
             style={{ opacity: opacityForBlock(progress, 1) }}
-          >
-            I use my passion and skills to build digital products and experiences.
-          </span>
+          >Community owned tokens</span>
           <span
             className="introText inline-block"
             style={{ opacity: opacityForBlock(progress, 2) }}
-          >
-            I&apos;m passionate about cutting-edge, pixel perfect UI and intuitively implemented UX.
-          </span>
+          >tag us in twitter, and we will repost your F1 meme</span>
         </div>
       </div>
     </div>
