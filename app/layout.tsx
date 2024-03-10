@@ -9,9 +9,9 @@ import LenisProvider from '@/components/Providers/LenisProvider';
 import ThemeProvider from '@/components/Providers/ThemeProvider';
 
 export const metadata = {
-  title: 'Dale Larroder',
-  description: 'I build things for the web.',
-  metadataBase: new URL('https://dalelarroder.com'),
+  title: 'BOXBOX',
+  description: 'Meme Token for all F1 fans.',
+  metadataBase: new URL('https://f1meme.com'),
 };
 
 interface RootLayoutProps {
