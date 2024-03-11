@@ -2,12 +2,12 @@
 
 import classNames from 'classnames';
 import headerNavLinks from 'content/headerNavLinks';
-
+import Logo from '/static/images/logo.svg';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import CommandPalette from './CommandPalette/CommandPalette';
 import MobileNav from './MobileNav';
-
+import Image from 'next/image'
 import SectionContainer from './SectionContainer';
 import ThemeSwitch from './ThemeSwitch';
 
@@ -29,7 +29,12 @@ export default function Header() {
               )}
               aria-label="BOXBOX"
             >
-           
+             <Image
+                src={Logo}
+                width={50}
+                height={50}
+                alt="F1 Meme Token"
+              />
             </Link>
           </div>
           <div className="flex items-center space-x-3 text-base leading-5">
