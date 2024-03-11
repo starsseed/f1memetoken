@@ -33,6 +33,7 @@ export default function Header() {
                 src={Logo}
                 width={50}
                 height={50}
+                className="rounded"
                 alt="F1 Meme Token"
               />
             </Link>
