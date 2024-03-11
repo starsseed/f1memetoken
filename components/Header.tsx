@@ -2,7 +2,7 @@
 
 import classNames from 'classnames';
 import headerNavLinks from 'content/headerNavLinks';
-import Logo from '/static/images/logo.svg';
+
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import CommandPalette from './CommandPalette/CommandPalette';
@@ -28,9 +28,7 @@ export default function Header() {
               )}
               aria-label="BOXBOX"
             >
-              <div className="mr-3">
-              <Logo />
-            </div>
+              Token
             </Link>
           </div>
           <div className="flex items-center space-x-3 text-base leading-5">
