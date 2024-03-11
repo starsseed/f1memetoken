@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import CommandPalette from './CommandPalette/CommandPalette';
 import MobileNav from './MobileNav';
+import Logo from '@/content/logo.svg';
 import SectionContainer from './SectionContainer';
 import ThemeSwitch from './ThemeSwitch';
 
@@ -28,7 +29,7 @@ export default function Header() {
               )}
               aria-label="BOXBOX"
             >
-              Token
+              Logo
             </Link>
           </div>
           <div className="flex items-center space-x-3 text-base leading-5">
