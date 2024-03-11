@@ -15,21 +15,22 @@ export default function Header() {
   return (
     <SectionContainer>
       <header className="z-40 bg-transparent py-5 md:py-10">
-        <div className="mx-auto flex max-w-5xl items-center justify-between">
-          <div>
-            <Link
-              href="/"
-              className={classNames(
-                'horizontal-underline hidden text-3xl font-extrabold sm:block',
-                {
-                  'horizontal-underline-active': pathName === '/',
-                }
-              )}
-              aria-label="d."
-            >
-              d.
-            </Link>
-          </div>
+        <div>
+        <Link href="/" aria-label={siteMetadata.headerTitle}>
+          <div className="flex items-center justify-between">
+            <div className="mr-3">
+              <Logo />
+            </div>
+            {typeof siteMetadata.headerTitle === 'string' ? (
+              <div className="hidden h-6 text-2xl font-semibold sm:block">
+                {siteMetadata.headerTitle}
+              </div>
+            ) : (
+              siteMetadata.headerTitle
+            )}
+            </div>
+          </Link>
+        </div>
           <div className="flex items-center space-x-3 text-base leading-5">
             <div className="hidden space-x-5 sm:flex">
               {headerNavLinks.map(({ title, href }) => {
