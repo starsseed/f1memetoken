@@ -4,8 +4,8 @@ import MainLayout from '@/layouts/MainLayout';
 import { allAuthors } from 'contentlayer/generated';
 
 export const metadata = {
-  title: 'Uses - Dale Larroder',
-  description: 'What I Use - Dale Larroder',
+  title: 'Wager - Token Burning',
+  description: 'No more bet after race start.',
 };
 
 export default function Uses() {
