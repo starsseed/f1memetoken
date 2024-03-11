@@ -2,7 +2,7 @@
 
 import classNames from 'classnames';
 import headerNavLinks from 'content/headerNavLinks';
-import Logo from '@/content/logo.svg'
+import Logo from '@/content/logo.svg';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import CommandPalette from './CommandPalette/CommandPalette';
@@ -28,7 +28,9 @@ export default function Header() {
               )}
               aria-label="d3."
             >
-              .
+              <div className="mr-3">
+              <Logo />
+            </div>
             </Link>
           </div>
           <div className="flex items-center space-x-3 text-base leading-5">
