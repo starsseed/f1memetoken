@@ -2,7 +2,7 @@
 
 import classNames from 'classnames';
 import headerNavLinks from 'content/headerNavLinks';
-import Logo from '@/static/images/logo.svg';
+import Logo from '/static/images/logo.svg';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import CommandPalette from './CommandPalette/CommandPalette';
