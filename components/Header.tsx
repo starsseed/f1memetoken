@@ -26,7 +26,7 @@ export default function Header() {
                   'horizontal-underline-active': pathName === '/',
                 }
               )}
-              aria-label="d3."
+              aria-label="BOXBOX"
             >
               <div className="mr-3">
               <Logo />
