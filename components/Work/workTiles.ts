@@ -22,7 +22,7 @@ export const workTiles: WorkTile[] = [
     description: 'ElonMusk',
     title: 'at Austin GP',
     image: {
-      src: '/static/images/field-app.webp',
+      src: '/static/images/elonmuskmiami.webp',
       width: 600,
       height: 554,
     },
