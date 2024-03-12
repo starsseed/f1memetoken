@@ -15,7 +15,7 @@ const siteMetadata = {
   twitter: 'https://twitter.com/F1memeBoxbox',
   facebook: 'https://facebook.com/F1memeBoxbox',
   linkedin: 'https://www.linkedin.com/in/F1meme-Boxbox/',
-  telegram: 'https://t.me/f1meme',
+  spotify: 'https://t.me/f1meme',
   steam: 'https://steamcommunity.com/id/F1memeBoxbox/',
   locale: 'en-US',
   comment: {
