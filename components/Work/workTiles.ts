@@ -13,7 +13,7 @@ export const workTiles: WorkTile[] = [
     description: `Ryan Reynolds`,
     title: `Bought Alpine`,
     image: {
-      src: '/static/images/aphex-apps.webp',
+      src: '/static/images/estebanryanrenolds_50.webp',
       width: 600,
       height: 770,
     },
