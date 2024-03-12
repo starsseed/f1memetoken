@@ -31,7 +31,7 @@ export const workTiles: WorkTile[] = [
     description: `BradPitt`,
     title: 'F1 Movie - Apex',
     image: {
-      src: '/static/images/planner-app.webp',
+      src: '/static/images/bradpittmovie.webp',
       width: 600,
       height: 717,
     },
@@ -40,7 +40,7 @@ export const workTiles: WorkTile[] = [
     description: `Neymar in`,
     title: 'Red Bull Team',
     image: {
-      src: '/static/images/publication-app.webp',
+      src: '/static/images/neymar.webp',
       width: 600,
       height: 717,
     },
