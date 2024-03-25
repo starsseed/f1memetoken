@@ -2,9 +2,11 @@ import siteMetadata from 'content/siteMetadata';
 import Link from 'next/link';
 import { Suspense } from 'react';
 import { AiFillLinkedin } from 'react-icons/ai';
-import { FaGithub, FaSpotify, FaSteam, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaSpotify, FaSteam, FaTwitter, FaTelegram } from 'react-icons/fa';
 import SectionContainer from './SectionContainer';
 import NowPlaying from './Spotify/NowPlaying';
+import Image from 'next/image';
+import dexLogo from '@/content/dexscreener.png';
 
 export default function Footer() {
   return (
@@ -25,27 +27,43 @@ export default function Footer() {
             <ul className="flex cursor-pointer items-center space-x-5">
               <li>
                 <a
-                  href={siteMetadata.linkedin}
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="linkedin"
-                >
-                  <AiFillLinkedin className="sm:text-lg" />
-                </a>
-              </li>
-              <li>
-                <a href={siteMetadata.github} target="_blank" rel="noreferrer" aria-label="github">
-                  <FaGithub className="sm:text-lg" />
-                </a>
-              </li>
-              <li>
-                <a
                   href={siteMetadata.twitter}
                   target="_blank"
                   rel="noreferrer"
                   aria-label="twitter"
                 >
                   <FaTwitter className="sm:text-lg" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href={siteMetadata.telegram}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="telegram"
+                >
+                  <FaTelegram className="sm:text-lg" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href={siteMetadata.solscan}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="solscan"
+                >
+                  <AiFillLinkedin className="sm:text-lg" />
+                </a>
+              </li>
+              <li>
+                <a href={siteMetadata.dexscreener} target="_blank" rel="noreferrer" aria-label="dexscreener">
+                    <Image
+                      src={dexLogo}
+                      width={20}
+                      height={20}
+                      className=""
+                      alt="-"
+                    />
                 </a>
               </li>
               <li>
