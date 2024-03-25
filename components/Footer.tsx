@@ -7,6 +7,8 @@ import SectionContainer from './SectionContainer';
 import NowPlaying from './Spotify/NowPlaying';
 import Image from 'next/image';
 import dexLogo from '@/content/dexscreener.png';
+import coinmarketcapLogo from '@/content/coinmarketcap.svg';
+import jupiterLogo from '@/content/jupiter.png';
 
 export default function Footer() {
   return (
@@ -32,7 +34,7 @@ export default function Footer() {
                   rel="noreferrer"
                   aria-label="twitter"
                 >
-                  <FaTwitter className="sm:text-lg" />
+                  <FaTwitter className="text-lg" />
                 </a>
               </li>
               <li>
@@ -42,7 +44,7 @@ export default function Footer() {
                   rel="noreferrer"
                   aria-label="telegram"
                 >
-                  <FaTelegram className="sm:text-lg" />
+                  <FaTelegram className="text-lg" />
                 </a>
               </li>
               <li>
@@ -52,7 +54,7 @@ export default function Footer() {
                   rel="noreferrer"
                   aria-label="solscan"
                 >
-                  <AiFillLinkedin className="sm:text-lg" />
+                  <AiFillLinkedin className="text-lg" />
                 </a>
               </li>
               <li>
@@ -68,17 +70,29 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href={siteMetadata.spotify}
+                  href={siteMetadata.coinmarketcap}
                   target="_blank"
                   rel="noreferrer"
-                  aria-label="spotify"
+                  aria-label="coinmarketcap"
                 >
-                  <FaSpotify className="sm:text-lg" />
+                  <Image
+                      src={coinmarketcapLogo}
+                      width={20}
+                      height={20}
+                      className=""
+                      alt="-"
+                    />
                 </a>
               </li>
               <li>
-                <a href={siteMetadata.steam} target="_blank" rel="noreferrer" aria-label="steam">
-                  <FaSteam className="sm:text-lg" />
+                <a href={siteMetadata.jupiter} target="_blank" rel="noreferrer" aria-label="jupiter">
+                  <Image
+                      src={jupiterLogo}
+                      width={20}
+                      height={20}
+                      className=""
+                      alt="-"
+                    />
                 </a>
               </li>
             </ul>
