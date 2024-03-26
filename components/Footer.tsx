@@ -9,6 +9,7 @@ import Image from 'next/image';
 import dexLogo from '@/content/dexscreener.png';
 import coinmarketcapLogo from '@/content/coinmarketcap.svg';
 import jupiterLogo from '@/content/jupiter.png';
+import solscanLogo from '@/content/solscan.png';
 
 export default function Footer() {
   return (
@@ -54,7 +55,13 @@ export default function Footer() {
                   rel="noreferrer"
                   aria-label="solscan"
                 >
-                  <AiFillLinkedin className="text-lg" />
+                  <Image
+                      src={solscanLogo}
+                      width={20}
+                      height={20}
+                      className=""
+                      alt="-"
+                    />
                 </a>
               </li>
               <li>
