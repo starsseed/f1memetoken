@@ -21,18 +21,13 @@ export default function Header() {
           <div>
             <Link
               href="/"
-              className={classNames(
-                'horizontal-underline hidden text-3xl font-extrabold sm:block',
-                {
-                  'horizontal-underline-active': pathName === '/',
-                }
-              )}
+              className='hidden text-3xl font-extrabold sm:block'
               aria-label="BOXBOX"
             >
              <Image
                 src={Logo}
-                width={50}
-                height={50}
+                width={60}
+                height={60}
                 className="rounded-md"
                 alt="F1 Meme Token"
               />
