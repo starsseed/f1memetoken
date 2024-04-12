@@ -38,7 +38,7 @@ export default function Hero(): ReactElement {
                 we are ready for you.
               </h2>
               <Link
-                href="https://raydium.io/"
+                href="https://www.coinstore.com/#/spot/BOXBOXUSDT?ts=1712921225499"
                 className="underline-magical text-md w-max cursor-pointer sm:text-lg md:text-xl xl:text-2xl"
               >
                 Buy Now &rarr;
